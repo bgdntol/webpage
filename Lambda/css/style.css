@@ -1,0 +1,473 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h3 {
+	font-size: 40px;
+	line-height: 50px;
+}
+.clearfix:after {
+	clear:both;
+	content: '';
+	display: table;
+}
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+header {
+	height: 700px;
+	background: url(../img/header-bg.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-box-shadow: inset 0px 12px 100px 26px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 12px 100px 26px rgba(0,0,0,1);
+	box-shadow: inset 0px 12px 100px 26px rgba(0,0,0,1);
+}
+.headers {
+	
+}
+.logo {
+	float: left;
+	display: inline-block;
+	width: 171px;
+    height: 110px;
+    margin-left: 70px;
+	background: url(../img/logo.png) no-repeat;
+}
+.nav {
+	float: left;
+	margin-left: 160px;
+}
+.nav ul li {
+	float: left;
+	margin-left: 10px;
+}
+.nav ul li a {
+	color: #fff;
+	line-height: 80px;
+	padding: 10px 20px;
+	font-size: 17px;
+	font-weight: 600;;
+	text-decoration: none;
+}
+.nav li:hover {
+	-webkit-box-shadow: inset 0px 4px 0px -1px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px 4px 0px -1px rgba(255,255,255,1);
+	box-shadow: inset 0px 4px 0px -1px rgba(255,255,255,1);
+}
+.soc-first {
+	float: left;
+	width: 100px;
+	height: 30px;
+	margin-top: 27px;
+}
+.soc-btn {
+    display: inline-block;
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+    text-decoration: none;
+    background: url("../img/soc.png") no-repeat center;
+}
+.btn-tw {
+	background-position: 5px 0px;
+}
+.btn-yt {
+	background-position: -32px 0px;
+}
+.btn-fb {
+	background-position: -62px 0px;
+}
+
+
+.slogan {
+	width: 1020px;
+	height: 420px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.slogan p {
+	font-size: 72pt;
+    line-height: 72pt;
+    text-align: center;
+    color: #fff;
+}
+.slogan p:after {
+	content: " "; 
+	line-height: 42px; 
+	position: relative;  
+	background: url("../img/pat-1.png") no-repeat center;
+	display: block;  
+    height: 50px;  
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.slogan-btn {
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 273px;
+}
+.btn-slog {
+	display: inline-block;
+	padding: 15px 50px;
+	background: rgba(255, 255, 255, 0.3);
+	font-size: 16px;
+	color: #fff;
+	font-family: "Arial", sans-serif;
+	text-decoration: none;
+	margin-right: 30px;
+	border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+}
+.btn-slog:hover {
+	background: rgba(0, 0, 0, 0.3);
+	border: 2px solid rgba(0, 0, 0, 0.4);
+}
+.section-about {
+	height: 700px;
+	background: url(../img/about-bg.jpg) no-repeat 0 0;
+	background-size: cover;
+}
+.section-about h3 {
+	color: #cc9900;
+}
+.section-about p {
+	display: inline-block;
+
+}
+.about-food {
+	width: 1100px;
+	height: 560px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+#about-dish {
+	float: right;
+    margin-top: -30px;
+}
+.about-foodh {
+	text-align: center;
+	display: inline-block;
+	background: url(../img/cook.png) no-repeat 174px 250px;
+    height: 475px;
+}
+.about-foodh h3:after {
+	content: " "; 
+	line-height: 42px; 
+	position: relative;  
+	background: url("../img/pat-menu.png") no-repeat center;
+	display: block;  
+    height: 50px;  
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.about-foodh p {
+	font-size: 17px;
+}
+.ingredients {
+	height: 760px;
+	background: url(../img/ingredients-bg.jpg) no-repeat 0 0;
+	background-size: cover;
+}
+.section-ingr {
+	float: right;
+	margin-right:50px;
+	margin-top: 100px;
+	width: 570px;
+	height: 420px;
+	color: #fff;
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	padding: 70px;
+}
+.section-ingr h3:after {
+	content: " "; 
+	line-height: 42px; 
+	position: relative;  
+	background: url("../img/review-pat.png") no-repeat center;
+	display: block;  
+    height: 50px;  
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.section-ingr p {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+.section-ingr img {
+	margin-right: 10px;
+	border-radius: 25px;
+}
+.menu {
+	height: 950px;
+	background: url(../img/menu-bg.jpg) no-repeat 0 0;
+	background-size: cover;
+	padding: 100px 210px 80px;
+}
+.menu h3, .menu h4, .price {
+	color: #cc9900;
+}
+.menu h4, .price {
+	font-size: 22px;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.menu h3 {
+	text-align: center;
+}
+.dish-margin {
+	margin-top: 70px;
+}
+.menu h3:after {
+	content: " "; 
+	line-height: 42px; 
+	position: relative;  
+	background: url("../img/pat-menu.png") no-repeat center;
+	display: block;  
+    height: 50px;  
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.left-menu, .right-menu {
+	float: left;
+	display: inline-block;
+	width: 400px;
+    margin-right: 130px;
+}
+.menu-food {
+	font-size: 15px;
+    font-weight: 100;
+    font-family: Arial;
+	border-top: 1px solid #dfce98;
+	margin-bottom: 40px;
+	padding-top: 10px;
+}
+.price {
+	text-align: right;
+	float: right;
+}
+.reviews {
+	background: url(../img/review-bg.jpg) no-repeat 0 0;
+	background-size: cover;
+	padding-top: 100px;
+    padding-bottom: 100px;
+}
+.review-black {
+	margin-left: 28%;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	display: inline-block;
+	padding: 70px 55px 100px;
+}
+.review-black h3:after {
+	content: " "; 
+	line-height: 42px; 
+	position: relative;  
+	background: url("../img/review-pat.png") no-repeat center;
+	display: block;  
+    height: 50px;  
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.review-black p {
+	font-size: 18px;
+	word-spacing: 5px;
+}
+.review-black p:last-child {
+	padding-top: 50px;
+}
+.review-black h3:before {
+	content: " "; 
+	line-height: 42px; 
+	position: relative;  
+	background: url("../img/quotes.png") no-repeat center;
+	display: block;  
+    height: 25px;  
+    width: 32px;
+    margin: 0 auto;
+    right: 255px;
+    top: 140px;
+}
+.reservation {
+	height: 700px;
+	background: url(../img/reservation-bg.jpg) no-repeat 0 0;
+	background-size: cover;
+}
+.reservation-block {
+	padding-left: 30px;
+}
+.reservation-pic, .reservation-form {
+	margin-top: 100px;
+	width: 625px;
+	float: left;
+}
+.reservation-pic img {
+	margin-left: 30px;
+}
+.reservation-form {
+	text-align: center;
+}
+.reservation-form h3 {
+	color: #cc9900;
+}
+.reservation-form h3:after {
+	content: " "; 
+	line-height: 42px; 
+	position: relative;  
+	background: url("../img/pat-menu.png") no-repeat center;
+	display: block;  
+    height: 30px;  
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.reservation-form {
+	text-align: center;
+}
+.reservation-form p {
+	margin-bottom: 15px;
+	font-weight: 600;
+    font-family: "Myriad Pro", sans-serif;
+}
+.reservation-table {
+	text-align: left;
+	width: 425px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reservation-table input {
+	padding: 15px;
+	width: 170px;
+	background: #f4f5f5;
+	color: #7c7c7c;
+	border: 1px solid #c8c6c6;
+	margin-bottom: 25px;
+}
+.table-input p {
+	color: #c9a131;
+	margin-bottom: 0;
+}
+.table-input {
+	float: left;
+	margin-left: 10px;
+}
+#book-now{
+	color: #fff;
+	background: #c9a131;
+	margin-top: -10px;
+	margin-left: 30%;
+	padding: 15px 20px;
+
+}
+footer {
+	background: #191919;
+	height: 220px;
+	padding-top: 50px;
+
+}
+.foot {
+	float: left;
+	width: 420px;
+	color: #fff;
+	text-align: center;
+}
+.foot h4 {
+	font-size: 22px;
+}
+.foot h4:after {
+	content: " "; 
+	line-height: 42px; 
+	position: relative;  
+	background: url("../img/footer-pat.png") no-repeat center;
+	display: block;  
+    height: 30px;  
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.foot p {
+	font-family: "Myriad Pro", sans-serif;
+	font-weight: 100;
+}
+.soc-foot {
+	width: 100px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 27px;
+}
+.foot-btn {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    text-decoration: none;
+    background: url("../img/soc-footer.png") no-repeat center;
+}
+.f-fb {
+	background-position: 5px 2px;
+}
+.f-yt {
+	background-position: -18px 2px;
+}
+.f-tw {
+	background-position: -44px 2px;
+}
+.f-inst {
+	background-position: -71px 2px;
+}
