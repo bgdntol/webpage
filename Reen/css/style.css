@@ -156,7 +156,9 @@ h3 {
 	display: none;
 } 
 .main-nav a:hover {
-	border: 1px solid #e6e9ed;
+	-webkit-box-shadow: inset 0px 0px 0px 1px #e6e9ed;
+	-moz-box-shadow: inset 0px 0px 0px 1px #e6e9ed;
+	box-shadow: inset 0px 0px 0px 1px #e6e9ed;
 	border-radius: 5px;
 	background: #f5f7fa;
 	color: #00bc9c;

@@ -261,6 +261,11 @@ header {
 	display: inline-block;
 	padding-bottom: 10px;
 }
+.price {
+	margin-top: -31px;
+	text-align: right;
+	float: right;
+}
 .menu h3 {
 	text-align: center;
 }
@@ -291,10 +296,6 @@ header {
 	border-top: 1px solid #dfce98;
 	margin-bottom: 40px;
 	padding-top: 10px;
-}
-.price {
-	text-align: right;
-	float: right;
 }
 .reviews {
 	background: url(../img/review-bg.jpg) no-repeat 0 0;
