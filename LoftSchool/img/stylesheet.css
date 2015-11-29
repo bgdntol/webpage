@@ -1,0 +1,59 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-bag {
+    width: 36px;
+    height: 34px;
+    background-position: -5px -5px;
+}
+
+.sprite-hat {
+    width: 42px;
+    height: 23px;
+    background-position: -51px -5px;
+}
+
+.sprite-list {
+    width: 26px;
+    height: 32px;
+    background-position: -103px -5px;
+}
+
+.sprite-login {
+    width: 20px;
+    height: 32px;
+    background-position: -139px -5px;
+}
+
+.sprite-login-open {
+    width: 20px;
+    height: 32px;
+    background-position: -169px -5px;
+}
+
+.sprite-mail {
+    width: 21px;
+    height: 16px;
+    background-position: -199px -5px;
+}
+
+.sprite-phone {
+    width: 19px;
+    height: 20px;
+    background-position: -230px -5px;
+}
+
+.sprite-skype {
+    width: 20px;
+    height: 20px;
+    background-position: -199px -35px;
+}
+
+.sprite-social {
+    width: 260px;
+    height: 94px;
+    background-position: -5px -65px;
+}
