@@ -1,0 +1,178 @@
+body {
+	color: #000;
+	background: rgb(227, 227, 227) none repeat scroll 0% 0%;
+	font: 17px/24px Arial,sans-serif;
+}
+.cont {
+	max-width: 480px;
+	margin: 0 auto;
+	border-bottom: 2px solid rgb(172, 172, 172);
+}
+.logo {
+	background: url(../img/top_menu2.png) repeat-x;
+	height: 52px;
+}
+.logo img {
+	display: block;
+	margin: 0px auto;
+	padding: 10px 0 0 0;
+}
+.header {
+	background: url(../img/back_head.jpg) no-repeat 50% 50%;
+	padding: 30px 0;
+	text-align: center;
+}
+.header .cont {
+	border: none;
+}
+.header img {
+	width: 300px;
+	height: auto;
+	margin: 15px auto;
+}
+.header-h2 {
+	margin: 0px 0 30px 0;
+	text-transform: uppercase;
+}
+.header-span {
+	
+}
+.header-div {
+	background: #1C9E00; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #7EC800 , #1C9E00); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #7EC800 , #1C9E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-moz-box-shadow: 0px 10px 14px -7px #3e7327;
+	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	width: 90%;
+	height: 70px;
+	margin: 0px auto;
+	border-radius: 10px;
+	padding: 10px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+.down-arrow {
+	display: inline-block;
+	position: relative;
+	background: darkcyan;
+	padding: 15px 0;
+	width: 200px;
+	text-align: center;
+}
+. {
+	content: '';
+	display: block;  
+	position: absolute;
+	left: 0;
+	top: 98%;
+	width: 0;
+	height: 0;
+	border-top: 60px solid #1A9E00;
+	border-right: 216px solid transparent;
+	border-bottom: 0 solid transparent;
+	border-left: 216px solid transparent;
+}
+.h-price {
+	font-size: 20px;
+	display: block;
+	font-weight: bold;
+}
+.about,
+.video,
+.gallery,
+.info,
+.recall,
+.delivery,
+.footer {
+	padding: 30px 0 0 0;
+}
+.about-img {
+	float: left;
+	padding: 30px 10px 0 0;
+}
+.about-image {
+	float: right;
+	padding: 0 0 0 10px;
+}
+.video {
+	text-align: center;
+}
+.video-text {
+
+}
+.video-frame {
+	margin: 20px auto;
+	width: 100%;
+	height: 250px;
+}
+.img-div img {
+	width: 32%;
+}
+.btn-buy {
+	background: #1C9E00; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #7EC800 , #1C9E00); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #7EC800 , #1C9E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border: 2px solid #1A9E00;
+	text-align: center;
+	padding: 10px 60px;
+	margin: 20px auto;
+	border-radius: 10px;
+    display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	color: #fff;
+}
+.cont-h3 {
+	text-align: center;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.panel-heading {
+	text-align: center;
+}
+.panel-title {
+	font-weight: bold;
+}
+.panel-body img {
+	float: left;
+	padding: 0 20px 0 0;
+}
+.recall-block {
+	margin: 20px 0 0 0;
+}
+.recall-img {
+	display: block;
+	margin: 0 auto;
+}
+.recall-name {
+	display: block;
+	padding: 10px 0;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+}
+.recall-p {
+
+}
+.footer {
+	text-align: center;
+}
+.footer p {
+	font-size: 14px;
+}
+.delivery h5 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.delivery p{
+	font-size: 14px;
+}
+.about,
+.gallery,
+.recall,
+.delivery {
+	background: ;
+}
