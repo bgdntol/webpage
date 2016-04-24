@@ -524,7 +524,8 @@ body {
 	background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
 	opacity: 0.8;
 	top: 0px;
-	padding: 235px 160px;
+	width: 100%;
+	height: 100%;
 	transition: all 0.4s ease-in-out;
 	display: none;
 }
@@ -592,9 +593,6 @@ body {
 .pic-link:hover .pic-hover {
 	display: block;
 }
-.verical-pic .pic-hover {
-	padding: 392px 238px;
-}
 .block-pik {
 	float: right;
 	width: 50%;
@@ -615,7 +613,8 @@ body {
 	background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
 	opacity: 0.8;
 	top: 0px;
-	padding: 196px 238px;
+	width: 100%;
+    height: 100%;
 	transition: all 0.4s ease-in-out;
 	display: none;
 }
