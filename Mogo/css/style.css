@@ -590,6 +590,9 @@ body {
 	width: 50%;
 	display: inline-block;
 }
+.vertical-pic img {
+	height: 780px;
+}
 .pic-link:hover .pic-hover {
 	display: block;
 }
