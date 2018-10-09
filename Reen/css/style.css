@@ -4,7 +4,7 @@ body {
 	color: #506a85;
 	font-weight: 700;
 	font-family: "PT Sans", sans-serif;
-	max-width: 1280px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 0;
 	min-width: 720px;
@@ -24,18 +24,18 @@ h3 {
 	display: table;
 }
 .container {
-	width: 1280px;
+	width: 100%;
 	margin: 0 auto;
 	background: #fff;
 }
 .main-header {
-	width: 1280px;
+	width: 100%;
 	background-color: #ffffff;
 	margin: 0 auto;
 	border-bottom: 1px solid #e6e9ed;
 }
 .main-social {
-	width: 1280px;
+	width: 100%;
 	height: 40px;
 	background-color: #f5f7fa;
 	border-bottom: 1px solid #e6e9ed;
@@ -222,20 +222,20 @@ h3 {
 	font-weight: 700;
 }
 .slog {
-	float: left;
-	width: 300px;
+	display: inline-block;
+	width: 20%;
+	min-width: 150px;
 	margin-bottom: 100px;
 	padding-top: 20px;
 	padding-left: 40px;
 	text-align: left;
 	position: relative;
 }
-.main-slogan div:nth-child(2) {
-	margin-left: 190px;
-}
 .slog h4 {
+	display: inline-block;
 	font-size: 24px;
-    margin-bottom: 20px;
+	margin-bottom: 20px;
+	vertical-align: text-bottom;
 } 
 .slog p {
 	color: #73879c;
@@ -245,9 +245,7 @@ h3 {
 	background: url(../img/slog.png) no-repeat;
 	width: 62px;
 	height: 70px;
-	left: -30px;
-  	top: 50px;
-	position: absolute;
+	display: inline-block;
 }
 .light {
 	background-position: -416px 0;
@@ -269,7 +267,7 @@ h3 {
 	margin-bottom: 20px;
 }
 .gl {
-	float: left;
+	display: inline-block;
 	width: 370px;
 	height: 315px;
 	background-color: #fff; 
@@ -279,8 +277,8 @@ h3 {
 	margin-left: 30px;
 }
 .galr-top {
-	margin-left: 260px;
 	margin-bottom: 50px;
+	text-align: center;
 }
 .big-img {
 	background: url(../img/g1.jpg) no-repeat;
@@ -304,23 +302,20 @@ h3 {
 	font-size: 12px;
 }
 .galr-bottom {
-	margin-left: 260px;
+	text-align: center;
+	margin-bottom: 50px;
 }
 .galr-top a, .galr-bottom a {
 	text-decoration: none;
 	color: #506a85;
 }
 .litl-img {
-	float: left;
-	margin-left: 30px;
-	margin-bottom: 100px;
+	display: inline-block;
+	margin: 10px 30px;
 	background: url(../img/g3.jpg) no-repeat;
 	background-size: contain;
 	width:170px;
 	height: 120px;
-}
-.litl-img:first-child {
-	margin-left: 0;
 }
 .litl-img:nth-child(2) {
 	background: url(../img/g4.jpg) no-repeat;

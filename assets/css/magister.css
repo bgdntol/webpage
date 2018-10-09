@@ -220,6 +220,9 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .thumbnail>img {
     border: 1px solid #CECCCC;
     border-radius: 2px;
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
 }
 .thumbnail .caption {
 	color: inherit;
@@ -368,5 +371,6 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	color: inherit;
 }
 
-
-
+.width-btn {
+	width: 100%;
+}

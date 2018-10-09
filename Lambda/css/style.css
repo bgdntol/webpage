@@ -258,8 +258,8 @@ header {
 }
 .menu h4, .price {
 	font-size: 22px;
-	display: inline-block;
 	padding-bottom: 10px;
+	text-align: left;
 }
 .price {
 	margin-top: -31px;
@@ -283,8 +283,10 @@ header {
     margin: 0 auto;
     margin-bottom: 10px;
 }
+.menu-container {
+	text-align: center;
+}
 .left-menu, .right-menu {
-	float: left;
 	display: inline-block;
 	width: 400px;
     margin-right: 130px;
@@ -296,6 +298,7 @@ header {
 	border-top: 1px solid #dfce98;
 	margin-bottom: 40px;
 	padding-top: 10px;
+	text-align: left;
 }
 .reviews {
 	background: url(../img/review-bg.jpg) no-repeat 0 0;
